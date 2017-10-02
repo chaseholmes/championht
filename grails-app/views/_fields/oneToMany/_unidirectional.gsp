@@ -1,0 +1,2 @@
+<g:select name="${property}" multiple="multiple" from="${ from ?: persistentProperty.getReferencedDomainClass().getClazz().list()}"
+          optionKey="id" class="form-control multi-select" optionValue="${optionValue ?: ''}" value="${value?.id ?: ''}"/>
